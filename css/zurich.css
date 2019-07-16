@@ -31,7 +31,8 @@ body {
 
 #about {
     font-size: 18px;
-    background: url("./../img/aboutZurich.jpg");
+    /* background: url("./../img/aboutZurich.jpg"); */
+    background-color: #001e22;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -40,16 +41,70 @@ body {
     height: 50vh;
 }
 
+#services h5 {
+    line-height: 40px;
+    padding: 100px 10px 100px 10px;
+}
+
 #about h4 {
     line-height: 40px;
 }
 
-#hotels {
-    height: 100vh;
+#main-focus {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: black;
 }
 
-#hotels .hotels{
-    height: 40vh;
+#main-focus-subs h5 {
+    padding-top: 20px;
+}
+
+#main-focus-subs h5{
+    padding-top: 20px;
+}
+.marriott{
+    background: url(./../img/marriot.jpg);
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+.hyatt{
+    background: url(./../img/hyatt.jpg);
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+.eden{
+    background: url(./../img/eden.jpg);
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+.florhof{
+    background: url(./../img/flor.jpg);
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+.dolder{
+    background: url(./../img/dolder.jpg);
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+.sorell{
+    background: url(./../img/sorell.jpg);
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -180,6 +235,20 @@ footer {
         width: 100px;
         font-size: 0.85rem;
     }
+    
+    #landingPage .landingContent h1{
+        text-align: center;
+    }
+
+    #about {
+        height: 100vh;
+        padding: 100px 10px 100px 10px;
+        text-align: center;
+    }
+
+    #services .service-card {
+        min-height: 100vh!important;
+    }
 
     #service {
         height: 100vh;
@@ -217,6 +286,23 @@ footer {
         color: white;
         text-align: left;
         font-size: 50px;
+    }
+
+    #main-focus img {
+        height: 70%;
+    }
+    #main-focus-subs .image {
+        margin: 0px;
+    }
+    #main-focus-subs .image img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #main-focus-subs .cards {
+        box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+        padding: 0px;
+        transform: scale(0.95);
+        margin-bottom: 20px;
     }
 
     footer {
@@ -273,6 +359,29 @@ footer {
         padding-left: 10%;
         padding-right: 10%;
         text-align: center;
+    }
+    
+    #main-focus .icon {
+        margin-bottom: 20px;
+    }
+    #main-focus .cards {
+        margin: auto;
+        padding: 0px;
+        margin-top: 12px;
+        position: relative;
+        box-shadow: 0;
+        transform: scale(0.95);
+        box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+    }
+    #main-focus-subs {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    #main-focus-subs img {
+        width: 100%;
+    }
+    .cards h4{
+        padding-bottom: 20px;
     }
 
     #quote1 {
