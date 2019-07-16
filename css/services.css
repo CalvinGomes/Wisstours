@@ -1,0 +1,246 @@
+body {
+    padding: 0px!important;
+    margin: 0px!important;
+}
+#landingPage {
+    background: url("./../img/services.jpg");
+    background-attachment: fixed!important;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white!important;
+}
+
+#landingPage .row{
+    height: inherit;
+}
+
+#landingPage .landingContent{
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+
+#landingPage .landingContent h1{
+    letter-spacing: 9px;
+    margin-bottom: 20px;    
+}
+
+#landingPage .landingContent h4{
+    margin-bottom: 30px;
+}
+
+#service {
+    font-size: 18px;
+    background: url("./../img/serviceQuote.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+#service h4 {
+    line-height: 40px;
+}
+
+#services {
+    padding: 0px;
+    margin: 0px;
+}
+
+.content{
+    margin: 0px!important;
+}
+
+.img-container {
+    margin: 0px!important;
+    padding: 0px!important;
+
+}
+
+.service-card img {
+    width: 100%;
+    padding: 0px!important;
+    margin: 0px!important;
+}
+
+.row h4 {
+    padding-top: 30px;
+}
+
+.locarno {
+    background: url("./../img/locarno.jpg");
+    color: white;
+    background-position: center;
+    background-size: cover;
+}
+
+.visp {
+    background: url("./../img/visp.jpg");
+    color: white;
+    background-position: center;
+    background-size: cover;
+}
+
+.villigen {
+    background: url("./../img/villigen.jpg");
+    color: white;
+    background-position: center;
+    background-size: cover;
+}
+
+.villars {
+    background: url("./../img/villars.jpg");
+    color: white;
+    background-position: center;
+    background-size: cover;
+}
+
+.vaduz {
+    background: url("./../img/vaduz.jpg");
+    color: white;
+    background-position: center;
+    background-size: cover;
+}
+
+.uster {
+    background: url("./../img/uster.jpg");
+    color: white;
+    background-position: center;
+    background-size: cover;
+}
+
+.triesenberg {
+    background: url("./../img/triesenberg.jpg");
+    color: white;
+    background-position: center;
+    background-size: cover;
+}
+
+#quote1 {
+    background: url("./../img/serviceQuote2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#quote1 .q1{
+    height: 100%;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 35px;
+}
+
+/* MOBILE PHONES */
+@media only screen and (max-width: 767px) {
+
+    .button {
+        box-shadow: 0 0px 15px 2px rgba(60, 98, 223, 0.945);
+    }
+
+    .knowMoreButton {
+        height: 45px;
+        width: 100px;
+        font-size: 0.85rem;
+    }
+
+    #service {
+        height: 100vh;
+        font-size: 18px;
+    }
+
+    #service .serviceContent {
+        height: 100vh;
+        text-align: center;
+        padding: 30px 10px 30px 10px;
+    }
+    
+    #service .serviceContent h4{
+        font-size: 1.1rem;
+    }
+
+    #services .one {
+        height: 100vh;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #services h4 {
+        margin-bottom: 30px;
+    }
+
+    #services .two {
+        height: 100vh;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #quote1 {
+        height: 100vh;
+        color: white;
+        text-align: left;
+        font-size: 50px;
+    }
+
+    footer {
+        font-size: 0.85rem;
+    }
+}
+
+/* PCs */
+@media only screen and (min-width: 768px) {
+
+    .knowMoreButton {
+        height: 50px;
+        width: 120px;
+        font-size: 1rem;
+    }
+
+    .row p {
+        padding-top: 30px;
+    }
+
+    #service {
+        font-style: italic;
+    }
+
+    #service .serviceContent {
+        height: 50vh;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    #services .single {
+        height: 60vh;
+    }
+    #services .double {
+        height: 100vh;
+    }
+
+    #services .one p{
+        padding-left: 20%;
+        padding-right: 20%;
+        text-align: center;
+    
+    }
+    
+    #services .two p{
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: center;
+    }
+    
+    #services .two h4{
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: center;
+    }
+
+    #quote1 {
+        height: 50vh;
+        font-size: 60px;
+        color: white;
+    }
+}

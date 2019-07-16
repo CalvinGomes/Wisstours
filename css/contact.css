@@ -1,0 +1,106 @@
+#landingPage {
+    background: url("./../img/services.jpg");
+    height: 100vh;
+    color: white!important;
+}
+
+#landingPage .row{
+    height: inherit;
+}
+
+#landingPage .landingContent{
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+
+#landingPage .landingContent h1{
+    margin-bottom: 20px;    
+}
+
+#landingPage .landingContent h4{
+    margin-bottom: 30px;
+}
+
+#service {
+    height: 45vh;
+    font-size: 18px;
+    background-color: rgb(0, 183, 255);
+    margin-bottom: 100px;
+}
+
+.vertical-card{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    background-color: white;
+    border-top: 3px solid;
+    border-top-color: rgb(21, 184, 224);
+    box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);        
+    padding: 0px;
+}
+
+.content{
+    padding-top: 50px;
+}
+
+.service-card{
+    padding: 20px 20px 20px 20px;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 35px;
+}
+
+/* MOBILE PHONES */
+@media only screen and (max-width: 767px) {
+
+    .button {
+        box-shadow: 0 0px 15px 2px rgba(60, 98, 223, 0.945);
+    }
+
+    .knowMoreButton {
+        height: 45px;
+        width: 100px;
+        font-size: 0.85rem;
+    }
+
+    #service {
+        padding-top: 50px;
+    }
+
+    #service .serviceContent {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    #service .serviceContent h4{
+        font-size: 1.1rem;
+    }
+
+    footer {
+        font-size: 0.85rem;
+    }
+}
+
+/* PCs */
+@media only screen and (min-width: 768px) {
+
+    .knowMoreButton {
+        height: 50px;
+        width: 120px;
+        font-size: 1rem;
+    }
+
+    #service {
+        padding-top: 50px;
+        font-style: italic;
+    }
+
+    #service .serviceContent {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}

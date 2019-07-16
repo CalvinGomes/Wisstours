@@ -1,0 +1,300 @@
+#landingPage {
+    background: url("./../img/landingPage.jpg");
+    background-attachment: fixed!important;
+    height: 100vh;
+    color: white;
+}
+
+#landingPage .row {
+    height: inherit;
+}
+
+#landingPage .landingContent {
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+
+#landingPage .landingContent h1 {
+    letter-spacing: 9px;
+    margin-bottom: 20px;
+}
+
+#landingPage .landingContent h4 {
+    margin-bottom: 30px;
+}
+
+#about {
+    background: url("./../img/forest.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+#quote1 {
+    background: url("./../img/quote1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#quote1 .q1{
+    height: 100%;
+}
+
+#quote2 {
+    background: url("./../img/quote2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#quote2 .q1{
+    height: 100%;
+}
+
+#services {
+    background-color: #060022;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+#services .stack {
+    justify-content: center;
+}
+
+#services img {
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+#services a {
+    margin-top: 30px;
+}
+
+#testimonial-carousel {
+    color: white;
+    background-color: #150020;
+}
+
+#caro {
+    color: white;
+}
+.caro1 {
+    background: url("./../img/caro1.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 60vh!important;
+}
+.caro2 {
+    background: url("./../img/caro2.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 60vh!important;
+}
+.caro3 {
+    background: url("./../img/caro3.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 60vh!important;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 35px;
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    background: none;
+}
+
+#testimonial-carousel h4 {
+    font-style: italic;
+}
+
+#testimonial-carousel .title {
+    padding-bottom: 60px;
+}
+
+/* MOBILE PHONES */
+
+@media only screen and (max-width: 767px) {
+    .button {
+        box-shadow: 0 0px 15px 0 rgba(78, 78, 78, 0.411);
+        /* box-shadow: 0 0px 15px 2px rgba(60, 98, 223, 0.945); */
+    }
+    .knowMoreButton {
+        height: 45px;
+        width: 100px;
+        font-size: 0.85rem;
+    }
+    #about {
+        height: 100vh;
+    }
+    #about .left{
+        margin-bottom: 20px;
+    }
+    #about .right h4{
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 30px;
+        font-size: 20px;
+        line-height: 35px;
+    }
+    #quote1 {
+        height: 100vh;
+        color: white;
+        text-align: left;
+        font-size: 60px;
+    }
+    #quote2 {
+        height: 100vh;
+        color: white;
+        text-align: left;
+        font-size: 60px;
+    }
+    #services {
+        padding-top: 50px;
+    }
+    #services h3 {
+        font-size: 1.5rem;
+    }
+    #services .stack {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #services .ico {
+        padding-bottom: 25px;
+    }
+    footer {
+        font-size: 0.85rem;
+    }
+    #testimonials {
+        min-height: 100vh;
+    }
+    #testimonials h1 {
+        padding-top: 25px;
+    }
+    #testimonial-carousel h4 {
+        text-align: left!important;
+        padding: 20px;
+        padding-left: 35px;
+        font-size: 20px;
+    }
+    #testimonial-carousel {
+        min-height: 80vh;
+    }
+    #testimonial-carousel p {
+        text-align: center;
+        padding: 10px;
+        font-style: italic;
+    }
+    #testimonial-carousel img {
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin: 0 auto;
+        border-radius: 50%;
+    }
+    .active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #caro h1 {
+        font-size: 45px;
+        padding: 10px;
+    }
+    #caro .items {
+        min-height: 100vh!important;
+    }
+}
+
+/* PCs */
+
+@media only screen and (min-width: 768px) {
+    .knowMoreButton {
+        height: 50px;
+        width: 120px;
+        font-size: 1rem;
+    }
+    #landingPage h1 {
+        font-size: 60px;
+    }
+    #landingPage h5 {
+        font-size: 35px;
+    }
+
+    #about {
+        min-height: 60vh;
+    }
+
+    #about .left {
+        margin-right: 50px;
+    }
+    #about .right {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background: rgba(0, 0, 0, 0.561);
+    }
+    #about .right h4 {
+        font-size: 20px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+
+    #quote1 {
+        height: 50vh;
+        font-size: 60px;
+        color: white;
+    }
+
+    #quote2 {
+        height: 50vh;
+        font-size: 60px;
+        color: white;
+    }
+
+    #services {
+        padding-top: 50px;
+    }
+    #services .stack {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    #caro h1 {
+        font-size: 50px;
+    }
+     #caro .items {
+        min-height: 60vh!important;
+    }
+    #testimonial-carousel {
+        height: 80vh;
+        padding-top: 50px;
+    }
+    #testimonial-carousel h4 {
+        padding: 20px 170px 20px 170px;
+    }
+    #testimonial-carousel p {
+        text-align: center;
+        padding: 10px;
+        font-size: 21px;
+        font-style: italic;
+    }
+    #testimonial-carousel img {
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin: 0 auto;
+        border-radius: 50%;
+    }
+}
